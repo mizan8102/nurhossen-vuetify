@@ -7,12 +7,12 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">JAN 2018 -</div>
+                <div class="caption font-weight-bold green--text">JAN 2021 -</div>
                 <div class="caption font-weight-bold green--text">PRESENT</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Full Stack Web Development Course</strong>
-                <div class="caption mb-2">freeCodeCamp</div>
+                <strong>Front In Development Course</strong>
+                <div class="caption mb-2">UTC</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -20,12 +20,12 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">SEP 2007 -</div>
-                <div class="caption font-weight-bold green--text">MAY 2014</div>
+                <div class="caption font-weight-bold green--text">SEP 2021 -</div>
+                <div class="caption font-weight-bold green--text">MAY 2018</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Telecommunications Engineering</strong>
-                <div class="caption mb-2">University of East Sarajevo</div>
+                <strong>Diploma In Engineering</strong>
+                <div class="caption mb-2">Feni Polytechnic Institute</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -33,12 +33,12 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">SEP 2003 -</div>
-                <div class="caption font-weight-bold green--text">MAY 2007</div>
+                <div class="caption font-weight-bold green--text">SEP 2016 -</div>
+                <div class="caption font-weight-bold green--text">MAY 2018</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Electrical Technician for Computers</strong>
-                <div class="caption mb-2">Electro-technical school Doboj</div>
+                <strong>Secondary School Certificate</strong>
+                <div class="caption mb-2">Central High School,Feni</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -70,7 +70,7 @@
               </v-flex>
               <v-flex class="pl-2">
                 <strong>Teacher for electrical technicians</strong>
-                <div class="caption mb-2">High School Doboj Istok</div>
+                <div class="caption mb-2">Remote</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -83,7 +83,7 @@
               </v-flex>
               <v-flex class="pl-2">
                 <strong>IT Technician</strong>
-                <div class="caption mb-2">MFS-EMMAUS</div>
+                <div class="caption mb-2">Global Computer's ,Feni</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -100,9 +100,9 @@
         <br>
         <strong>Photoshop</strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>Adobe XD</strong>
+        <strong>Illustrator</strong>
         <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>Zeplin</strong>
+        <strong>Remote</strong>
         <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
       <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
@@ -111,7 +111,7 @@
           <span class="green--text">Skills</span>
         </h2>
         <br>
-        <strong>VUE/NUXT</strong>
+        <strong>VUE</strong>
         <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
         <strong>HTML/CSS</strong>
         <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
@@ -120,7 +120,7 @@
       </v-flex>
       <div class="mt-4 pt-2">
         <v-btn
-          href="https://docs.google.com/document/d/1WSR42FEgUahJuR_RArW1wz7TfUBlgj13zekRidmQgs4/edit?usp=sharing"
+          href="javascript:void()"
           target="_blank"
           color="green"
           dark
@@ -136,32 +136,6 @@
 
 <script>
 export default {
-  metaInfo: {
-    title: "Resume",
-    titleTemplate: "%s ← Eldin's Space",
-    meta: [
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      {
-        name: "description",
-        content:
-          "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
-      },
-      { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
-      {
-        property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
-      },
-      {
-        property: "og:description",
-        content:
-          "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
-      }
-    ]
-  },
   data() {
     return {
       value: 0,

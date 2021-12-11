@@ -8,22 +8,22 @@
         </h2>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-map-marker-alt</v-icon>
-          <span>Doboj,&nbsp;</span>
-          <span class="green--text">Bosnia & Herzegovina</span>
+          <span>Feni Sadar,&nbsp;</span>
+          <span class="green--text">Feni & Chittagong</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-envelope</v-icon>
-          <span>eldin@</span>
-          <span class="green--text">zaimovic.com</span>
+          <span>ahmmadn922@</span>
+          <span class="green--text">gmail.com</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-phone</v-icon>
-          <span>+387&nbsp;</span>
-          <span class="green--text">61 596 676</span>
+          <span>+880&nbsp;</span>
+          <span class="green--text">1786-580173</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-check</v-icon>
-          <span>Freelance</span>
+          <span>10.00 am-12.00pm</span>
           <span class="green--text">Available</span>
         </div>
       </v-flex>
@@ -89,32 +89,6 @@ import {
   minLength
 } from "vuelidate/lib/validators";
 export default {
-  metaInfo: {
-    title: "Contact",
-    titleTemplate: "%s ← Eldin's Space",
-    meta: [
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      {
-        name: "description",
-        content:
-          "Eldin Zaimovic's Contact Doboj Bosnia and Herzegovina Freelance Get in Touch ContactMe"
-      },
-      { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
-      {
-        property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
-      },
-      {
-        property: "og:description",
-        content:
-          "Eldin Zaimovic's Contact Doboj Bosnia and Herzegovina Freelance Get in Touch ContactMe"
-      }
-    ]
-  },
   mixins: [validationMixin],
   validations: {
     name: { required, maxLength: maxLength(20) },

@@ -60,80 +60,55 @@
 
 <script>
 export default {
-  metaInfo: {
-    title: "Services",
-    titleTemplate: "%s ← Eldin's Space",
-    meta: [
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      {
-        name: "description",
-        content:
-          "Eldin Zaimovic's Services Web Development Video Editing Graphic Design Front-End Advetising"
-      },
-      { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
-      {
-        property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
-      },
-      {
-        property: "og:description",
-        content:
-          "Eldin Zaimovic's Services Web Development Video Editing Graphic Design Front-End Advetising"
-      }
-    ]
-  },
+
   data() {
     return {
       clients: [
         {
           name: "Brandly",
           src: "https://i.imgur.com/BLJ16wb.png",
-          href: "https://www.brandly.com/"
+          href: ""
         },
         {
           name: "EEVOY",
           src: "https://i.imgur.com/lIJePVb.png",
-          href: "https://www.eevoy.com/"
+          href: ""
         },
         {
           name: "Riders Share",
           src: "https://i.imgur.com/pgkY80b.png",
-          href: "https://www.riders-share.com/"
+          href: ""
         },
         {
           name: "Esthetician Connection",
           src:
-            "https://estheticianconnection.com/wp-content/uploads/2019/01/EC-logo.png",
-          href: "https://estheticianconnection.com/"
+            "https://i.imgur.com/BLJ16wb.png",
+          href: ""
         },
         {
           name: "Goldentimepieces",
           src: "https://i.imgur.com/sEybxZ5.png",
-          href: "https://goldentimepieces.com/"
+          href: ""
         },
         {
           name: "MFS-EMMAUS",
           src: "https://i.imgur.com/33xPmQ8.png",
-          href: "https://mfs-emmaus.ba/"
+          href: ""
         },
         {
           name: "Scanlister",
           src: "https://i.imgur.com/5K7h7c4.png",
-          href: "https://www.scanlister.com/"
+          href: ""
         },
         {
           name: "Unbroken Designs",
           src: "https://i.imgur.com/kDLRh64.png",
-          href: "https://www.unbrokendesigns.com/"
+          href: ""
         },
         {
           name: "VilaShirts",
           src: "https://i.imgur.com/Fg26T32.png",
-          href: "https://www.instagram.com/_vilashirts_/"
+          href: ""
         }
       ],
       services: [
@@ -161,6 +136,6 @@ export default {
 </script>
 <style >
 .v-img--reveal {
-  opacity: 0.3;
+  opacity: 0.3
 }
 </style>

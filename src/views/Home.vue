@@ -23,7 +23,7 @@
 
     <br>
 
-    <vue-typer class="headline" :repeat="0" text="Eldin Zaimovic"></vue-typer>
+    <vue-typer class="headline" :repeat="0" text="Nur Hossen"></vue-typer>
     <vue-typer
       :text="text1"
       :repeat="Infinity"
@@ -48,7 +48,7 @@
             </h3>
             <div>
               <p>
-                Hello! I’m Eldin Zaimovic. I'm a front-end developer who
+                Hello! I’m Nur Hossen. I'm a front-end developer who
                 is passionate about
                 <span
                   class="green--text font-weight-bold"
@@ -100,24 +100,7 @@ import { VueTyper } from "vue-typer";
 import VueCompareImage from "vue-compare-image";
 
 export default {
-  metaInfo: {
-    title: "Home",
-    titleTemplate: "%s ← Eldin's Space",
-    meta: [
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "description", content: "Eldin Zaimovic's Portfolio" },
-      { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
-      {
-        property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
-      },
-      { property: "og:description", content: "Eldin Zaimovic's Portfolio" }
-    ]
-  },
+
   components: {
     "vue-typer": VueTyper,
     VueCompareImage
@@ -125,31 +108,32 @@ export default {
   data() {
     return {
       icons: [
-        { href: "https://github.com/EldinZaimovic", icon: "fab fa-github" },
+        { href: "#", icon: "fab fa-github" },
         {
-          href: "https://stackoverflow.com/users/story/9660700",
+          href: "#",
           icon: "fab fa-stack-overflow"
         },
-        { href: "https://twitter.com/EldinMatricar", icon: "fab fa-twitter" },
+        { href: "#", icon: "fab fa-twitter" },
         {
-          href: "https://www.linkedin.com/in/eldin-zaimovic",
+          href: "#",
           icon: "fab fa-linkedin-in"
         },
         {
-          href: "https://www.xing.com/profile/Eldin_Zaimovic?sc_o=mxb_p",
+          href: "#",
           icon: "fab fa-xing"
         },
         {
-          href: "https://www.facebook.com/EldinVasVoli",
+          href: "#",
           icon: "fab fa-facebook-f"
         },
-        { href: "https://www.instagram.com/matricar", icon: "fab fa-instagram" }
+        { href: "#", icon: "fab fa-instagram" }
       ],
       text1: ["Front-End Developer", "Web Developer", "Web Designer"],
-      leftImage: "https://i.imgur.com/bU50uS9.jpg",
-      rightImage: "https://i.imgur.com/z3ZoEEw.jpg",
-      leftImage2: "https://i.imgur.com/SXBitjh.jpg",
-      rightImage2: "https://i.imgur.com/Dcz2PGx.jpg",
+      leftImage: "https://firebasestorage.googleapis.com/v0/b/imagecapture-911f4.appspot.com/o/5434406.png?alt=media&token=bf54191b-b445-4295-8083-213a2bb01cca",
+      rightImage: "https://firebasestorage.googleapis.com/v0/b/imagecapture-911f4.appspot.com/o/5434406.png?alt=media&token=bf54191b-b445-4295-8083-213a2bb01cca",
+
+      leftImage2: "https://firebasestorage.googleapis.com/v0/b/imagecapture-911f4.appspot.com/o/IMG20211008153509.jpg?alt=media&token=41c8c06c-8cb4-475b-9ec9-0b01404ffcd2",
+      rightImage2: "https://firebasestorage.googleapis.com/v0/b/imagecapture-911f4.appspot.com/o/IMG20211008153509.jpg?alt=media&token=41c8c06c-8cb4-475b-9ec9-0b01404ffcd2",
       sliderLine: 0,
       hSize: 0,
       sliderPosition: 0.5
